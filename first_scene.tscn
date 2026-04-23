@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ckcwqtv1wtnds"]
+
+[ext_resource type="Script" uid="uid://c17vtcuui83do" path="res://first_scene.gd" id="1_5qpg1"]
+[ext_resource type="Texture2D" uid="uid://1d7eexj3bkmg" path="res://icon.svg" id="1_y5rs1"]
+[ext_resource type="PackedScene" uid="uid://b4qrqv6qpsfhm" path="res://stick_figure.tscn" id="2_5qpg1"]
+
+[node name="FirstScene" type="Node2D" unique_id=1523258834]
+script = ExtResource("1_5qpg1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=346852548]
+texture = ExtResource("1_y5rs1")
+
+[node name="StickFigure" parent="." unique_id=1465553079 instance=ExtResource("2_5qpg1")]
+position = Vector2(471.00003, -66.00001)
+scale = Vector2(0.965, 0.915)
